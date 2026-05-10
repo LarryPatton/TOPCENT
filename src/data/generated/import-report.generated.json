@@ -1,0 +1,1165 @@
+{
+  "sourceExcel": "ziyuan/产品三级分类表 (2)(1).xlsx",
+  "sourceImages": "ziyuan",
+  "totalRows": 339,
+  "products": 339,
+  "matchedImages": 251,
+  "aliasMatches": 8,
+  "missingImages": [
+    {
+      "row": 9,
+      "category": "滑轨解决方案",
+      "name": "普通重型钢珠轨",
+      "model": ""
+    },
+    {
+      "row": 10,
+      "category": "滑轨解决方案",
+      "name": "缓冲重型钢珠轨",
+      "model": ""
+    },
+    {
+      "row": 13,
+      "category": "滑轨解决方案",
+      "name": "测装喷粉轨",
+      "model": ""
+    },
+    {
+      "row": 17,
+      "category": "滑轨解决方案",
+      "name": "缓冲反弹薄抽",
+      "model": ""
+    },
+    {
+      "row": 19,
+      "category": "滑轨解决方案",
+      "name": "反弹骑马抽",
+      "model": ""
+    },
+    {
+      "row": 20,
+      "category": "滑轨解决方案",
+      "name": "缓冲反弹骑马抽",
+      "model": ""
+    },
+    {
+      "row": 21,
+      "category": "滑轨解决方案",
+      "name": "二节普通隐藏轨",
+      "model": ""
+    },
+    {
+      "row": 26,
+      "category": "滑轨解决方案",
+      "name": "三节缓冲反弹隐藏轨",
+      "model": ""
+    },
+    {
+      "row": 28,
+      "category": "滑轨解决方案",
+      "name": "美式反弹隐藏轨",
+      "model": ""
+    },
+    {
+      "row": 29,
+      "category": "滑轨解决方案",
+      "name": "钢珠轨尾托",
+      "model": ""
+    },
+    {
+      "row": 30,
+      "category": "滑轨解决方案",
+      "name": "喷粉轨尾托",
+      "model": ""
+    },
+    {
+      "row": 31,
+      "category": "滑轨解决方案",
+      "name": "隐藏轨间隔块",
+      "model": ""
+    },
+    {
+      "row": 32,
+      "category": "滑轨解决方案",
+      "name": "内抽前接码",
+      "model": ""
+    },
+    {
+      "row": 33,
+      "category": "滑轨解决方案",
+      "name": "内抽面板",
+      "model": ""
+    },
+    {
+      "row": 34,
+      "category": "滑轨解决方案",
+      "name": "内抽前杠",
+      "model": ""
+    },
+    {
+      "row": 35,
+      "category": "滑轨解决方案",
+      "name": "后接码",
+      "model": ""
+    },
+    {
+      "row": 36,
+      "category": "滑轨解决方案",
+      "name": "前接码",
+      "model": ""
+    },
+    {
+      "row": 37,
+      "category": "滑轨解决方案",
+      "name": "内抽面板",
+      "model": ""
+    },
+    {
+      "row": 38,
+      "category": "滑轨解决方案",
+      "name": "前玻璃",
+      "model": ""
+    },
+    {
+      "row": 42,
+      "category": "铰链解决方案",
+      "name": "自关铰链",
+      "model": ""
+    },
+    {
+      "row": 43,
+      "category": "铰链解决方案",
+      "name": "无制斜柜门铰链",
+      "model": ""
+    },
+    {
+      "row": 45,
+      "category": "铰链解决方案",
+      "name": "自关斜柜门铰链",
+      "model": ""
+    },
+    {
+      "row": 46,
+      "category": "铰链解决方案",
+      "name": "缓冲大角度铰链",
+      "model": ""
+    },
+    {
+      "row": 48,
+      "category": "铰链解决方案",
+      "name": "缓冲铝框门铰链",
+      "model": ""
+    },
+    {
+      "row": 49,
+      "category": "铰链解决方案",
+      "name": "自关铝框门铰链",
+      "model": ""
+    },
+    {
+      "row": 52,
+      "category": "铰链解决方案",
+      "name": "缓冲美式铰链",
+      "model": ""
+    },
+    {
+      "row": 53,
+      "category": "铰链解决方案",
+      "name": "自关美式铰链",
+      "model": ""
+    },
+    {
+      "row": 56,
+      "category": "铰链解决方案",
+      "name": "自关短臂铰链",
+      "model": ""
+    },
+    {
+      "row": 58,
+      "category": "铰链解决方案",
+      "name": "自关子弹铰链",
+      "model": ""
+    },
+    {
+      "row": 62,
+      "category": "铰链解决方案",
+      "name": "玻璃夹合页",
+      "model": ""
+    },
+    {
+      "row": 63,
+      "category": "铰链解决方案",
+      "name": "排绞",
+      "model": ""
+    },
+    {
+      "row": 65,
+      "category": "铰链解决方案",
+      "name": "铜暗铰",
+      "model": ""
+    },
+    {
+      "row": 66,
+      "category": "铰链解决方案",
+      "name": "铰链灯",
+      "model": ""
+    },
+    {
+      "row": 67,
+      "category": "铰链解决方案",
+      "name": "角度限位器",
+      "model": ""
+    },
+    {
+      "row": 85,
+      "category": "厨柜解决方案",
+      "name": "米箱",
+      "model": ""
+    },
+    {
+      "row": 90,
+      "category": "衣柜解决方案",
+      "name": "挂衣杆带灯",
+      "model": ""
+    },
+    {
+      "row": 106,
+      "category": "衣柜解决方案",
+      "name": "皮带架",
+      "model": ""
+    },
+    {
+      "row": 108,
+      "category": "衣柜解决方案",
+      "name": "围巾架",
+      "model": ""
+    },
+    {
+      "row": 116,
+      "category": "衣柜解决方案",
+      "name": "岛台配件",
+      "model": ""
+    },
+    {
+      "row": 119,
+      "category": "衣柜解决方案",
+      "name": "衣柜抽屉模块：裤架+保险箱",
+      "model": ""
+    },
+    {
+      "row": 135,
+      "category": "功能解决方案",
+      "name": "延伸桌配件",
+      "model": ""
+    },
+    {
+      "row": 138,
+      "category": "功能解决方案",
+      "name": "电动高深柜配件",
+      "model": ""
+    },
+    {
+      "row": 164,
+      "category": "翻门解决方案",
+      "name": "木卷帘门",
+      "model": ""
+    },
+    {
+      "row": 166,
+      "category": "翻门解决方案",
+      "name": "手动未来窗",
+      "model": ""
+    },
+    {
+      "row": 171,
+      "category": "拉手解决方案",
+      "name": "铝合金免拉",
+      "model": "BD.3100"
+    },
+    {
+      "row": 175,
+      "category": "拉手解决方案",
+      "name": "锌合金嵌入拉手",
+      "model": "无"
+    },
+    {
+      "row": 186,
+      "category": "照明解决方案",
+      "name": "滑盖插座",
+      "model": ""
+    },
+    {
+      "row": 199,
+      "category": "照明解决方案",
+      "name": "踢脚板配件",
+      "model": ""
+    },
+    {
+      "row": 201,
+      "category": "照明解决方案",
+      "name": "充电长条灯",
+      "model": ""
+    },
+    {
+      "row": 202,
+      "category": "照明解决方案",
+      "name": "筒灯",
+      "model": ""
+    },
+    {
+      "row": 203,
+      "category": "照明解决方案",
+      "name": "射灯",
+      "model": ""
+    },
+    {
+      "row": 209,
+      "category": "照明解决方案",
+      "name": "led灯线",
+      "model": ""
+    },
+    {
+      "row": 210,
+      "category": "照明解决方案",
+      "name": "延长线",
+      "model": ""
+    },
+    {
+      "row": 214,
+      "category": "照明解决方案",
+      "name": "人体感应开关",
+      "model": ""
+    },
+    {
+      "row": 218,
+      "category": "照明解决方案",
+      "name": "线槽",
+      "model": ""
+    },
+    {
+      "row": 222,
+      "category": "开合解决方案",
+      "name": "信箱管理锁",
+      "model": ""
+    },
+    {
+      "row": 226,
+      "category": "开合解决方案",
+      "name": "玻璃柜锁",
+      "model": ""
+    },
+    {
+      "row": 227,
+      "category": "开合解决方案",
+      "name": "天地锁",
+      "model": ""
+    },
+    {
+      "row": 228,
+      "category": "开合解决方案",
+      "name": "指纹锁",
+      "model": ""
+    },
+    {
+      "row": 229,
+      "category": "开合解决方案",
+      "name": "密码锁",
+      "model": ""
+    },
+    {
+      "row": 232,
+      "category": "开合解决方案",
+      "name": "碰珠門碰",
+      "model": ""
+    },
+    {
+      "row": 233,
+      "category": "开合解决方案",
+      "name": "弹簧門碰",
+      "model": ""
+    },
+    {
+      "row": 241,
+      "category": "开合解决方案",
+      "name": "移门缓冲器",
+      "model": ""
+    },
+    {
+      "row": 242,
+      "category": "连接解决方案",
+      "name": "自攻螺丝",
+      "model": ""
+    },
+    {
+      "row": 243,
+      "category": "连接解决方案",
+      "name": "机丝螺丝",
+      "model": ""
+    },
+    {
+      "row": 245,
+      "category": "连接解决方案",
+      "name": "膨胀塞",
+      "model": ""
+    },
+    {
+      "row": 268,
+      "category": "装饰解决方案",
+      "name": "木纹贴",
+      "model": ""
+    },
+    {
+      "row": 269,
+      "category": "装饰解决方案",
+      "name": "修复蜡笔",
+      "model": ""
+    },
+    {
+      "row": 275,
+      "category": "装饰解决方案",
+      "name": "格栅板连接片",
+      "model": ""
+    },
+    {
+      "row": 297,
+      "category": "基座解决方案",
+      "name": "家具可调脚",
+      "model": ""
+    },
+    {
+      "row": 300,
+      "category": "框架解决方案",
+      "name": "柜框配件",
+      "model": ""
+    },
+    {
+      "row": 301,
+      "category": "框架解决方案",
+      "name": "立柱型材",
+      "model": ""
+    },
+    {
+      "row": 302,
+      "category": "框架解决方案",
+      "name": "立柱配件",
+      "model": ""
+    },
+    {
+      "row": 309,
+      "category": "框架解决方案",
+      "name": "木门H型隔断",
+      "model": ""
+    },
+    {
+      "row": 313,
+      "category": "框架解决方案",
+      "name": "皮革玻璃门",
+      "model": ""
+    },
+    {
+      "row": 322,
+      "category": "门配解决方案",
+      "name": "弹簧合页",
+      "model": ""
+    },
+    {
+      "row": 325,
+      "category": "门配解决方案",
+      "name": "曲臂合页/偏轴合页",
+      "model": ""
+    },
+    {
+      "row": 326,
+      "category": "门配解决方案",
+      "name": "自攻合页",
+      "model": ""
+    },
+    {
+      "row": 327,
+      "category": "门配解决方案",
+      "name": "隐藏闭门器",
+      "model": ""
+    },
+    {
+      "row": 328,
+      "category": "门配解决方案",
+      "name": "隐藏式顶装闭门器",
+      "model": ""
+    },
+    {
+      "row": 329,
+      "category": "门配解决方案",
+      "name": "地装弹簧",
+      "model": ""
+    },
+    {
+      "row": 330,
+      "category": "门配解决方案",
+      "name": "臂式顶装闭门器",
+      "model": ""
+    },
+    {
+      "row": 331,
+      "category": "门配解决方案",
+      "name": "滑动式闭门器",
+      "model": ""
+    },
+    {
+      "row": 335,
+      "category": "门配解决方案",
+      "name": "防盗扣/链",
+      "model": ""
+    },
+    {
+      "row": 337,
+      "category": "门配解决方案",
+      "name": "门铃&门环",
+      "model": ""
+    },
+    {
+      "row": 338,
+      "category": "门配解决方案",
+      "name": "玻璃门配件",
+      "model": ""
+    },
+    {
+      "row": 339,
+      "category": "门配解决方案",
+      "name": "门牌",
+      "model": ""
+    },
+    {
+      "row": 340,
+      "category": "门配解决方案",
+      "name": "门用防尘条",
+      "model": ""
+    }
+  ],
+  "unusedImages": [
+    {
+      "category": "滑轨解决方案",
+      "name": "侧装喷粉轨",
+      "model": "SL.1241",
+      "file": "侧装喷粉轨-SL.1241.png"
+    },
+    {
+      "category": "铰链解决方案",
+      "name": "铜暗铰SH.3160",
+      "model": "",
+      "file": "铜暗铰SH.3160.png"
+    },
+    {
+      "category": "铰链解决方案",
+      "name": "排铰",
+      "model": "SH.8010",
+      "file": "排铰-SH.8010.png"
+    },
+    {
+      "category": "铰链解决方案",
+      "name": "玻璃合页",
+      "model": "SH.6060",
+      "file": "玻璃合页-SH.6060.png"
+    },
+    {
+      "category": "开合解决方案",
+      "name": "碰珠樵碰",
+      "model": "CL.5280",
+      "file": "碰珠樵碰-CL.5280.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "旋转垃圾桶",
+      "model": "WB.0144",
+      "file": "旋转垃圾桶-WB.0144.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "酒杯架",
+      "model": "BK.8401",
+      "file": "酒杯架-BK.8401.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "电动升降篮",
+      "model": "BK.6505",
+      "file": "电动升降篮-BK.6505.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "刀叉盘",
+      "model": "CT.2000",
+      "file": "刀叉盘-CT.2000.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "厨房挂件",
+      "model": "BK.8220",
+      "file": "厨房挂件-BK.8220.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "顶装拉篮",
+      "model": "BK.1401",
+      "file": "顶装拉篮-BK.1401.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "电动升降",
+      "model": "BK.6508",
+      "file": "电动升降-BK.6508.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "转角飞碟",
+      "model": "BK.4011",
+      "file": "转角飞碟-BK.4011.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "手动升降篮",
+      "model": "BK.6317",
+      "file": "手动升降篮-BK.6317.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "转角联动拉篮",
+      "model": "BK.5115",
+      "file": "转角联动拉篮-BK.5115.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "底装拉篮",
+      "model": "BK.3202",
+      "file": "底装拉篮-BK.3202.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "分隔件",
+      "model": "CT.3002",
+      "file": "分隔件-CT.3002.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "酒瓶架",
+      "model": "BK.8502",
+      "file": "酒瓶架-BK.8502.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "固装碟架",
+      "model": "BK.8010",
+      "file": "固装碟架-BK.8010.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "联动篮",
+      "model": "BK.7760",
+      "file": "联动篮-BK.7760.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "转盘",
+      "model": "BK.4227",
+      "file": "转盘-BK.4227.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "水槽拉篮",
+      "model": "BK.3105(产品下架)",
+      "file": "水槽拉篮-BK.3105(产品下架).jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "侧装垃圾桶",
+      "model": "WB.0240",
+      "file": "侧装垃圾桶-WB.0240.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "底装垃圾桶",
+      "model": "WB.0501",
+      "file": "底装垃圾桶-WB.0501.png"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "底装拉篮",
+      "model": "BK.2403",
+      "file": "底装拉篮-BK.2403.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "高深篮",
+      "model": "BK.7340",
+      "file": "高深篮-BK.7340.jpg"
+    },
+    {
+      "category": "橱柜解决方案",
+      "name": "侧装拉篮",
+      "model": "BK.5408",
+      "file": "侧装拉篮-BK.5408.png"
+    },
+    {
+      "category": "框架解决方案",
+      "name": "图片",
+      "model": "",
+      "file": "图片.png"
+    },
+    {
+      "category": "功能解决方案",
+      "name": "台面延伸桌配件",
+      "model": "MC.2303",
+      "file": "台面延伸桌配件-MC.2303.jpg"
+    },
+    {
+      "category": "装饰解决方案",
+      "name": "木纹贴.DF.2100",
+      "model": "",
+      "file": "木纹贴.DF.2100.png"
+    },
+    {
+      "category": "门配解决方案",
+      "name": "门吸",
+      "model": "BF.3203",
+      "file": "门吸-BF.3203.png"
+    },
+    {
+      "category": "衣柜解决方案",
+      "name": "抽屉式分类盒",
+      "model": "MA.3104",
+      "file": "抽屉式分类盒-MA.3104.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢嵌入型拉手",
+      "model": "BD.4413",
+      "file": "不锈钢嵌入型拉手-BD.4413.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "锌合金粒拉",
+      "model": "BD.2303",
+      "file": "锌合金粒拉-BD.2303.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "塑料常规拉手",
+      "model": "BD.5002",
+      "file": "塑料常规拉手-BD.5002.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金常规拉手",
+      "model": "BD.3000",
+      "file": "铝合金常规拉手-BD.3000.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金嵌入拉手",
+      "model": "BD.3033",
+      "file": "铝合金嵌入拉手-BD.3033.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金粒拉",
+      "model": "BD.3046",
+      "file": "铝合金粒拉-BD.3046.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "带灯免拉",
+      "model": "BD.3110",
+      "file": "带灯免拉-BD.3110.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金封边拉手",
+      "model": "BD.3050",
+      "file": "铝合金封边拉手-BD.3050.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金免拉配件",
+      "model": "CF.7120",
+      "file": "铝合金免拉配件-CF.7120.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "锌合金常规拉手",
+      "model": "BD.2309",
+      "file": "锌合金常规拉手-BD.2309.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铁常规拉手",
+      "model": "BD.4701",
+      "file": "铁常规拉手-BD.4701.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢常规拉手",
+      "model": "BD.4001",
+      "file": "不锈钢常规拉手-BD.4001.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铁粒拉",
+      "model": "BD.4734",
+      "file": "铁粒拉-BD.4734 .jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "塑料粒拉",
+      "model": "BD.5002",
+      "file": "塑料粒拉-BD.5002.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢粒拉",
+      "model": "BD.4012",
+      "file": "不锈钢粒拉-BD.4012.png"
+    },
+    {
+      "category": "厨柜解决方案",
+      "name": "底装拉篮",
+      "model": "BK.2403",
+      "file": "底装拉篮-BK.2403.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢嵌入型拉手",
+      "model": "BD.4413",
+      "file": "不锈钢嵌入型拉手-BD.4413.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "锌合金粒拉",
+      "model": "BD.2303",
+      "file": "锌合金粒拉-BD.2303.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "塑料常规拉手",
+      "model": "BD.5002",
+      "file": "塑料常规拉手-BD.5002.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金常规拉手",
+      "model": "BD.3000",
+      "file": "铝合金常规拉手-BD.3000.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金嵌入拉手",
+      "model": "BD.3033",
+      "file": "铝合金嵌入拉手-BD.3033.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金粒拉",
+      "model": "BD.3046",
+      "file": "铝合金粒拉-BD.3046.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "带灯免拉",
+      "model": "BD.3110",
+      "file": "带灯免拉-BD.3110.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金封边拉手",
+      "model": "BD.3050",
+      "file": "铝合金封边拉手-BD.3050.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铝合金免拉配件",
+      "model": "CF.7120",
+      "file": "铝合金免拉配件-CF.7120.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "锌合金常规拉手",
+      "model": "BD.2309",
+      "file": "锌合金常规拉手-BD.2309.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铁常规拉手",
+      "model": "BD.4701",
+      "file": "铁常规拉手-BD.4701.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢常规拉手",
+      "model": "BD.4001",
+      "file": "不锈钢常规拉手-BD.4001.jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "铁粒拉",
+      "model": "BD.4734",
+      "file": "铁粒拉-BD.4734 .jpg"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "塑料粒拉",
+      "model": "BD.5002",
+      "file": "塑料粒拉-BD.5002.png"
+    },
+    {
+      "category": "拉手解决方案",
+      "name": "不锈钢粒拉",
+      "model": "BD.4012",
+      "file": "不锈钢粒拉-BD.4012.png"
+    }
+  ],
+  "duplicateSlugs": [
+    "electric-base-lift-2",
+    "divider-box-2",
+    "roller-for-embeddoverlay-sliding-door-2",
+    "lift-up-flap-system-2",
+    "bd-5002-2",
+    "track-socket-2",
+    "track-usb-charger-module-2",
+    "vertical-profile-2"
+  ],
+  "slashRows": [
+    {
+      "row": 59,
+      "category": "铰链解决方案",
+      "item": "针式铰链"
+    },
+    {
+      "row": 60,
+      "category": "铰链解决方案",
+      "item": "天地铰链"
+    },
+    {
+      "row": 61,
+      "category": "铰链解决方案",
+      "item": "翻板合页"
+    },
+    {
+      "row": 62,
+      "category": "铰链解决方案",
+      "item": "玻璃夹合页"
+    },
+    {
+      "row": 63,
+      "category": "铰链解决方案",
+      "item": "排绞"
+    },
+    {
+      "row": 81,
+      "category": "厨柜解决方案",
+      "item": "厨房挂件"
+    },
+    {
+      "row": 85,
+      "category": "厨柜解决方案",
+      "item": "米箱"
+    },
+    {
+      "row": 105,
+      "category": "衣柜解决方案",
+      "item": "收纳盒"
+    },
+    {
+      "row": 139,
+      "category": "功能解决方案",
+      "item": "折叠凳配件"
+    },
+    {
+      "row": 149,
+      "category": "移门解决方案",
+      "item": "移门轨道"
+    },
+    {
+      "row": 155,
+      "category": "翻门解决方案",
+      "item": "机械支撑"
+    },
+    {
+      "row": 158,
+      "category": "翻门解决方案",
+      "item": "任意停支撑"
+    },
+    {
+      "row": 159,
+      "category": "翻门解决方案",
+      "item": "液压支撑"
+    },
+    {
+      "row": 202,
+      "category": "照明解决方案",
+      "item": "筒灯"
+    },
+    {
+      "row": 203,
+      "category": "照明解决方案",
+      "item": "射灯"
+    },
+    {
+      "row": 234,
+      "category": "开合解决方案",
+      "item": "电动反弹器"
+    },
+    {
+      "row": 239,
+      "category": "开合解决方案",
+      "item": "抽屉缓冲器"
+    },
+    {
+      "row": 240,
+      "category": "开合解决方案",
+      "item": "柜门缓冲器"
+    },
+    {
+      "row": 241,
+      "category": "开合解决方案",
+      "item": "移门缓冲器"
+    },
+    {
+      "row": 253,
+      "category": "连接解决方案",
+      "item": "床用连接件"
+    },
+    {
+      "row": 261,
+      "category": "连接解决方案",
+      "item": "角码"
+    },
+    {
+      "row": 262,
+      "category": "连接解决方案",
+      "item": "枪钉"
+    },
+    {
+      "row": 263,
+      "category": "装饰解决方案",
+      "item": "防滑垫"
+    },
+    {
+      "row": 264,
+      "category": "装饰解决方案",
+      "item": "防撞粒"
+    },
+    {
+      "row": 265,
+      "category": "装饰解决方案",
+      "item": "PVC封边条"
+    },
+    {
+      "row": 266,
+      "category": "装饰解决方案",
+      "item": "水槽柜垫板"
+    },
+    {
+      "row": 267,
+      "category": "装饰解决方案",
+      "item": "装饰盖"
+    },
+    {
+      "row": 268,
+      "category": "装饰解决方案",
+      "item": "木纹贴"
+    },
+    {
+      "row": 269,
+      "category": "装饰解决方案",
+      "item": "修复蜡笔"
+    },
+    {
+      "row": 270,
+      "category": "装饰解决方案",
+      "item": "透气孔"
+    },
+    {
+      "row": 271,
+      "category": "装饰解决方案",
+      "item": "下水口"
+    },
+    {
+      "row": 272,
+      "category": "装饰解决方案",
+      "item": "线盒"
+    },
+    {
+      "row": 273,
+      "category": "装饰解决方案",
+      "item": "穿线管"
+    },
+    {
+      "row": 297,
+      "category": "基座解决方案",
+      "item": "家具可调脚"
+    },
+    {
+      "row": 300,
+      "category": "框架解决方案",
+      "item": "柜框配件"
+    },
+    {
+      "row": 310,
+      "category": "框架解决方案",
+      "item": "手办柜"
+    },
+    {
+      "row": 311,
+      "category": "框架解决方案",
+      "item": "精品柜"
+    },
+    {
+      "row": 314,
+      "category": "框架解决方案",
+      "item": "拉直器"
+    },
+    {
+      "row": 318,
+      "category": "门配解决方案",
+      "item": "门碰珠"
+    },
+    {
+      "row": 319,
+      "category": "门配解决方案",
+      "item": "门插销"
+    },
+    {
+      "row": 334,
+      "category": "门配解决方案",
+      "item": "门吸"
+    },
+    {
+      "row": 335,
+      "category": "门配解决方案",
+      "item": "防盗扣/链"
+    },
+    {
+      "row": 336,
+      "category": "门配解决方案",
+      "item": "猫眼"
+    },
+    {
+      "row": 337,
+      "category": "门配解决方案",
+      "item": "门铃&门环"
+    },
+    {
+      "row": 338,
+      "category": "门配解决方案",
+      "item": "玻璃门配件"
+    },
+    {
+      "row": 339,
+      "category": "门配解决方案",
+      "item": "门牌"
+    },
+    {
+      "row": 340,
+      "category": "门配解决方案",
+      "item": "门用防尘条"
+    }
+  ]
+}
