@@ -1,12 +1,10 @@
 import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-
-const navItems = [
-  { to: "/products", label: "产品中心" },
-];
+import { useLanguage } from "../i18n/LanguageContext";
 
 export default function Header() {
   const navigate = useNavigate();
+  const { language, toggleLanguage, t } = useLanguage();
   const [keyword, setKeyword] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -34,42 +32,40 @@ export default function Header() {
               type="search"
               value={keyword}
               onChange={(event) => setKeyword(event.target.value)}
-              placeholder="输入产品型号、名称、材质或应用场景"
-              aria-label="站内搜索"
+              placeholder={t("heroSearchPlaceholder")}
+              aria-label={t("search")}
             />
-            <button type="submit">搜索</button>
+            <button type="submit">{t("search")}</button>
           </form>
 
+          <nav className={`header-nav ${menuOpen ? "is-open" : ""}`} aria-label="Primary">
+            <NavLink
+              className={({ isActive }) => `nav-link ${isActive ? "is-active" : ""}`}
+              to="/products"
+              onClick={() => setMenuOpen(false)}
+            >
+              {t("productCenter")}
+            </NavLink>
+          </nav>
+
           <div className="topbar-links">
-            <span className="language-switch" aria-label="语言">
-              ◎ 中文⌄
-            </span>
+            <button
+              className="language-switch"
+              type="button"
+              onClick={toggleLanguage}
+              aria-label={t("languageLabel")}
+            >
+              ◎ {language === "zh" ? "中文" : "EN"}⌄
+            </button>
             <button
               className="menu-toggle"
               type="button"
               onClick={() => setMenuOpen((open) => !open)}
-              aria-label="打开导航"
+              aria-label="Menu"
             >
-              {menuOpen ? "关闭" : "菜单"}
+              {menuOpen ? "Close" : "Menu"}
             </button>
           </div>
-        </div>
-      </div>
-
-      <div className={`main-nav ${menuOpen ? "is-open" : ""}`}>
-        <div className="container main-nav-inner">
-          {navItems.map((item) => (
-            <NavLink
-              key={item.to}
-              className={({ isActive }) =>
-                `nav-link ${isActive ? "is-active" : ""}`
-              }
-              to={item.to}
-              onClick={() => setMenuOpen(false)}
-            >
-              {item.label}
-            </NavLink>
-          ))}
         </div>
       </div>
     </header>

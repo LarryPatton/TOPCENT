@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { categories } from "../data/siteData";
+import { useLanguage, useLocalizedEntity } from "../i18n/LanguageContext";
 import { formatCategoryOrder, getDirectProductByPath } from "../utils/catalog";
 
-function TreeNode({ node, activeSegments, trail = [], order = [] }) {
+function TreeNode({ node, activeSegments, trail = [], order = [], labels }) {
   const nextTrail = [...trail, node.slug];
   const nextOrder = order;
   const isActive = nextTrail.every((segment, index) => activeSegments[index] === segment);
@@ -15,9 +16,9 @@ function TreeNode({ node, activeSegments, trail = [], order = [] }) {
       <Link to={href}>
         <span>
           <b>{formatCategoryOrder(nextOrder)}</b>
-          {node.name}
+          {labels.categoryName(node)}
         </span>
-        <small>{node.nameEn}</small>
+        <small>{labels.categorySecondary(node)}</small>
       </Link>
 
       {shouldExpand ? (
@@ -26,6 +27,7 @@ function TreeNode({ node, activeSegments, trail = [], order = [] }) {
             <TreeNode
               key={child.slug}
               activeSegments={activeSegments}
+              labels={labels}
               node={child}
               order={[...nextOrder, index + 1]}
               trail={nextTrail}
@@ -38,12 +40,15 @@ function TreeNode({ node, activeSegments, trail = [], order = [] }) {
 }
 
 export default function CategoryTree({ activeSegments }) {
+  const { t } = useLanguage();
+  const labels = useLocalizedEntity();
+
   return (
     <details className="sidebar-panel collapsible-panel" open>
       <summary className="panel-head">
         <span>
-          <h3>产品树</h3>
-          <p>一级 / 二级 / 三级分类</p>
+          <h3>{t("productTree")}</h3>
+          <p>{t("categoryLevels")}</p>
         </span>
         <small />
       </summary>
@@ -52,6 +57,7 @@ export default function CategoryTree({ activeSegments }) {
           <TreeNode
             key={category.slug}
             activeSegments={activeSegments}
+            labels={labels}
             node={category}
             order={[index + 1]}
           />

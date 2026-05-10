@@ -9,6 +9,7 @@ import AppLayout from "./App";
 import HomePage from "./pages/HomePage";
 import CatalogPage from "./pages/CatalogPage";
 import SearchPage from "./pages/SearchPage";
+import { LanguageProvider } from "./i18n/LanguageContext";
 import "./styles.css";
 
 const router = createBrowserRouter([
@@ -26,6 +27,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <LanguageProvider>
+      <RouterProvider router={router} />
+    </LanguageProvider>
   </React.StrictMode>
 );

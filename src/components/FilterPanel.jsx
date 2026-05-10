@@ -1,10 +1,6 @@
-const filterLabels = {
-  material: "材质",
-  finish: "表面处理",
-  installation: "安装方式",
-  color: "颜色",
-  series: "系列",
-};
+import { useLanguage } from "../i18n/LanguageContext";
+
+const filterKeys = ["material", "finish", "installation", "color", "series"];
 
 export default function FilterPanel({
   options,
@@ -12,7 +8,8 @@ export default function FilterPanel({
   onToggleFilter,
   onReset,
 }) {
-  const visibleFilters = Object.entries(filterLabels).filter(([key]) => options[key]?.length);
+  const { filterLabel, localizedValue, t } = useLanguage();
+  const visibleFilters = filterKeys.filter((key) => options[key]?.length);
 
   if (!visibleFilters.length) {
     return null;
@@ -22,18 +19,18 @@ export default function FilterPanel({
     <details className="sidebar-panel collapsible-panel" open>
       <summary className="panel-head inline">
         <div>
-          <h3>筛选</h3>
-          <p>仅显示已有数据维度</p>
+          <h3>{t("filters")}</h3>
+          <p>{t("realFiltersOnly")}</p>
         </div>
         <button className="text-button" type="button" onClick={onReset}>
-          清空
+          {t("clear")}
         </button>
       </summary>
 
       <div className="filter-groups">
-        {visibleFilters.map(([key, label]) => (
+        {visibleFilters.map((key) => (
           <section className="filter-group" key={key}>
-            <h4>{label}</h4>
+            <h4>{filterLabel(key)}</h4>
             <div className="filter-options">
               {options[key].map((value) => (
                 <label className="checkbox-row" key={value}>
@@ -42,7 +39,7 @@ export default function FilterPanel({
                     checked={selectedFilters[key].includes(value)}
                     onChange={() => onToggleFilter(key, value)}
                   />
-                  <span>{value}</span>
+                  <span>{localizedValue(value)}</span>
                 </label>
               ))}
             </div>
